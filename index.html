@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Maths Assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+		<script src="https://www.desmos.com/api/v1.5/calculator.js?apiKey=dcb31709b452b1cf9dc26972add0fda6"></script>
+  </head>
+  <body>
+    <script src="script.js"></script>
+		<h1>Spider Web Parabola Generator - Quadratics II</h1>
+		<h4>Created by Charlie McMahon. © 2020. Note: code may become unstable / unusable at any time.</h4>
+		<p style="color:red;">Note: Automated domains calculation is coming soon to make the graph look good.</p>
+		<p>Use Default Values: <input type="submit" onclick="showDefaultValues();"><br/></p>
+	<form>
+    <label><br><b>Enter the <code>x</code> value of the starting vertex</b><br></label>
+    <input type="text" name="Starting X Value" id="x_value">
+		<label><br><b>Enter the <code>y</code> value of the starting vertex</b><br></label>
+    <input type="text" name="Starting Y Value" id="y_value">
+		<label><br><b>Enter the <code>a</code> of the parabola you wish to create.</b><br></label>
+    <input type="text" name="Starting A Value" id="a_value">
+		<label><br><b>Enter the amount of rows for the parabolas (max. 6)</b><br></label>
+    <input type="text" name="Starting Row Value" id="row_value">
+  </form>
+  <input type="submit" onclick="showInput();"><br/>
+  <h2>Calculated equations will appear here: </h2><br>
+	<p><span id='display-0'></span></p>
+  <p><span id='display-1'></span></p>
+	<p><span id='display-2'></span></p>
+	<p><span id='display-3'></span></p>
+	<p><span id='display-4'></span></p>
+	<p><span id='display-5'></span></p>
+	<p><span id='display-6'></span></p>
+	<h2>Desmos Graph Showing Output Data:</h2>
+	<div id="calculator" style="width: 1000px; height: 700px;"></div>
+  </body>
+</html>
+
+</body>
+</html>
